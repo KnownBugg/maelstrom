@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=P4V
+GenericName=Version Control System
+Categories=Development
+Type=Application
+Icon=p4v
+Exec=p4v
+TryExec=p4v
+Terminal=false
+
