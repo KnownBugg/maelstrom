@@ -25,8 +25,8 @@ SRC_HELIX_CORE="${SRC_PREFIX}/helix-core-server.tgz"
 SRC_P4V="${SRC_PREFIX}/p4v.tgz"
 
 SRC_URI="
-	abi_x86_64? ( p4? ( $SRC_HELIX_CORE ) p4broker? ( $SRC_HELIX_CORE ) p4d? ( $SRC_HELIX_CORE ) p4p? ( $SRC_HELIX_CORE ) )
-	abi_x86_64? ( p4v? ( $SRC_P4V ) )
+	abi_x86_64? ( p4? ( $SRC_HELIX_CORE -> hcs-${PV}.tgz ) p4broker? ( $SRC_HELIX_CORE -> hcs-${PV}.tgz ) p4d? ( $SRC_HELIX_CORE -> hcs-${PV}.tgz ) p4p? ( $SRC_HELIX_CORE -> hcs-${PV}.tgz ) )
+	abi_x86_64? ( p4v? ( $SRC_P4V -> p4v-${PV}.tgz ) )
 "
 
 #PN_INSTALL="${PN}"

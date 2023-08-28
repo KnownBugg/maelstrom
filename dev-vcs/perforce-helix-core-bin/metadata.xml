@@ -5,4 +5,11 @@
 		<name>Bugg</name>
 		<email>bugg.gentoo@tutanota.com</email>
 	</maintainer>
+	<use>
+		<flag name="p4"> Installs p4 executable. </flag>
+		<flag name="p4v"> Installs p4v executable. </flag>
+		<flag name="p4d"> Installs p4d executable. </flag>
+		<flag name="p4p"> Installs p4p executable. </flag>
+		<flag name="p4broker"> Installs p4broker executable. </flag>
+	</use>
 </pkgmetadata>
