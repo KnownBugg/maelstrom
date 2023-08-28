@@ -1,3 +1,14 @@
+# Transitional profile designed to move systemd-merged-usr to a hardened version
+# Expaned name would look something like this:
+#	linux/amd64/17.1/hardened/systemd/merged-usr
+amd64 secure-plasma-desktop-transition dev
+
 # Expaned name would look something like this:
 #	linux/amd64/17.1/hardened/selinux/desktop/plasma/systemd/merged-usr
 amd64 secure-plasma-desktop dev
+
+# Expaned name would look something like this:
+#	linux/amd64/17.1/hardened/desktop/plasma/systemd/merged-usr
+amd64 hardened-plasma-desktop
+
+
