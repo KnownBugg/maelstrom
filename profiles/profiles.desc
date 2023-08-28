@@ -9,6 +9,4 @@ amd64 secure-plasma-desktop dev
 
 # Expaned name would look something like this:
 #	linux/amd64/17.1/hardened/desktop/plasma/systemd/merged-usr
-amd64 hardened-plasma-desktop
-
-
+amd64 hardened-plasma-desktop dev

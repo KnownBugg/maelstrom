@@ -12,7 +12,7 @@ LICENSE="perforce"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="bindist mirror"
- 
+
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
@@ -57,7 +57,7 @@ src_prepare() {
 		mkdir "${HELIX_CORE_BIN}" || die
 
 		if use p4v ; then
-			P4V=$(find ${WORKDIR} -maxdepth 1 -type d -name "p4v-*")
+			P4V=$(find "${WORKDIR}" -maxdepth 1 -type d -name "p4v-*")
 			[[ -d "${P4V}" ]] || die
 			[[ -d "${P4V}/bin" ]] || die
 			[[ -d "${P4V}/lib" ]] || die
@@ -112,7 +112,7 @@ src_install() {
 
 			doicon -s 64 "${PN_INSTALL}/lib/P4VResources/icons/p4admin.svg"
 			doicon -s 64 "${PN_INSTALL}/lib/P4VResources/icons/p4merge.svg"
-			doicon -s 64 "${PN_INSTALL}/lib/P4VResources/icons/p4v.svg" 
+			doicon -s 64 "${PN_INSTALL}/lib/P4VResources/icons/p4v.svg"
 
 			domenu "${FILESDIR}/p4v.desktop"
 		fi
