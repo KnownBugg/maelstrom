@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst postrm prepare
+DEPEND=dev-libs/libffi
+DESCRIPTION=A stand-alone graphics debugging tool
+EAPI=8
+HOMEPAGE=https://renderdoc.org https://github.com/baldurk/renderdoc
+INHERIT=desktop xdg-utils
+IUSE=abi_x86_64
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/libffi
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://renderdoc.org/stable/1.36/renderdoc_1.36.tar.gz -> renderdoc.tgz
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=71b22fe362d0a1226c60f00cf6bf17f5
